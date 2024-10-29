@@ -9,7 +9,7 @@ import { LightPurpleButton } from '../components/buttonStyles';
 const Homepage = () => {
     return (
         <StyledContainer>
-            <Grid container spacing={0} style={{marginTop :'200px'}}>
+            <Grid container spacing={0}>
                 <Grid item xs={12} md={6}>
                     <img src={backgroundImage} alt="students" style={{ width: '100%' }} />
                 </Grid>
